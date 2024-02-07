@@ -1,1 +1,2 @@
-const container = document.getElementById("container");
+const button = document.querySelector(".resetButton");
+const container = document.querySelector(".container");

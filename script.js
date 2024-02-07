@@ -1,5 +1,6 @@
 const button = document.querySelector(".resetButton");
 const container = document.querySelector(".container");
+const sizeOfGrid = 16;
 
 const createGrid = amtOfGrids => {
 	for (let i = 0; i < amtOfGrids; i++);
@@ -7,10 +8,13 @@ const createGrid = amtOfGrids => {
 		const row = document.createElement("div");
 		row.classList.add("grid-row");
 
-		for (let j = 0; i < amtOfGrids; j++);
+		for (let j = 0; j < amtOfGrids; j++);
 		{
 			const gridBox = document.createElement("div");
 			row.appendChild(gridBox);
 		}
+		container.appendChild(row);
 	}
 };
+
+createGrid(sizeOfGrid);

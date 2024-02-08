@@ -14,6 +14,8 @@ function createGridCells() {
 		gridCell.classList.add("cell");
 
 		sketchArea.appendChild(gridCell);
+
+		gridCell.addEventListener('mouseover', changeBackgroundColor);
 	}
 }
 createGridCells();

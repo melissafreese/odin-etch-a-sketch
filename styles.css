@@ -10,7 +10,7 @@ body {
 #sketch-area {
 	display: flex; 
 	background-color: white;
-	margin: 100px;
+	margin: 100px auto;
 }
 
 .cell {

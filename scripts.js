@@ -1,25 +1,7 @@
-// const button = document.querySelector(".resetButton");
-const container = document.querySelector(".container");
-const amtOfGrids = 16;
+const GRIDSIDE = 600;
+let rows = 16;
+let cols = 16;
 
-
-function createGrid(amtOfGrids) {
-	for (let i = 0; i < amtOfGrids; i++);
-	{
-		const row = document.createElement("div");
-		row.classList.add("grid-row");
-
-		for (let j = 0; j < amtOfGrids; j++);
-
-		{
-			const gridBox = document.createElement("div");
-			gridBox.classList.add("grid-box");
-			row.appendChild(gridBox);
-		}
-		container.appendChild(row);
-	}
-	
-}
-
-createGrid();
-console.log(amtOfGrids);
+const sketchArea = document.querySelector("#sketch-area");
+sketchArea.style.width = `${GRIDSIDE}px`;
+sketchArea.style.height = `${GRIDSIDE}px`;

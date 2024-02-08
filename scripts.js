@@ -11,7 +11,7 @@ function createGridCells() {
 		const gridCell = document.createElement("div");
 		gridCell.style.width = `${(GRIDSIDE / cols) - 2}px`;
 		gridCell.style.height = `${(GRIDSIDE / rows) - 2}px`;
-		gridCell.classList.add("cell");
+		gridCell.classList.add(".cell");
 
 		sketchArea.appendChild(gridCell);
 	}

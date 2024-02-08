@@ -2,8 +2,7 @@ const GRIDSIDE = 600;
 let squaresPerSide = 16;
 
 const sketchArea = document.querySelector("#sketch-area");
-sketchArea.style.width = `${GRIDSIDE}px`;
-sketchArea.style.height = `${GRIDSIDE}px`;
+sketchArea.style.width = sketchArea.style.height = `${GRIDSIDE}px`;
 
 function setBackgroundColor() {
 	this.style.backgroundColor = "black";

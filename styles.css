@@ -9,6 +9,7 @@ body {
 
 #sketch-area {
 	display: flex; 
+	flex-wrap: wrap;
 	background-color: white;
 	margin: 100px auto;
 }

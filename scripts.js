@@ -11,5 +11,6 @@ function createGridCells() {
 		const gridCell = document.createElement("div");
 		gridCell.style.width = `${GRIDSIDE / cols - 2}px`;
 		gridCell.style.width = `${GRIDSIDE / rows - 2}px`;
+		gridCell.classList.add("cell");
 	}
 }

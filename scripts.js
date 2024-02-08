@@ -5,3 +5,9 @@ let cols = 16;
 const sketchArea = document.querySelector("#sketch-area");
 sketchArea.style.width = `${GRIDSIDE}px`;
 sketchArea.style.height = `${GRIDSIDE}px`;
+
+function createGridCells() {
+	for (let i= 0; i < (rows * cols); i++) {
+		const gridCell = document.createElement('div');
+	}
+}

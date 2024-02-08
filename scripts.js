@@ -7,7 +7,9 @@ sketchArea.style.width = `${GRIDSIDE}px`;
 sketchArea.style.height = `${GRIDSIDE}px`;
 
 function createGridCells() {
-	for (let i= 0; i < (rows * cols); i++) {
-		const gridCell = document.createElement('div');
+	for (let i = 0; i < rows * cols; i++) {
+		const gridCell = document.createElement("div");
+		gridCell.style.width = `${GRIDSIDE / cols - 2}px`;
+		gridCell.style.width = `${GRIDSIDE / rows - 2}px`;
 	}
 }

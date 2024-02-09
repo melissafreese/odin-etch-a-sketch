@@ -28,4 +28,9 @@ function createGridCells(squaresPerSide) {
 		gridCell.addEventListener("mouseover", setBackgroundColor);
 	}
 }
-createGridCells();
+
+function removeGridCells() {
+	
+}
+
+createGridCells(16);

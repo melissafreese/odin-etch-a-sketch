@@ -4,6 +4,7 @@
 }
 
 body {
+	min-height: 100vh;
 	background-image: linear-gradient(
 		to top,
 		#dad4ec 0%,
@@ -16,7 +17,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
-	margin: 100px auto;
+	margin: 100px auto 20px auto;
 	box-shadow: 10px 10px rgba(0, 170, 255, 0.034);
 }
 

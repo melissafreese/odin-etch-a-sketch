@@ -10,7 +10,7 @@ function setBackgroundColor() {
 
 function createGridCells() {
 	const numofSquares = squaresPerSide * squaresPerSide;
-	const widthOrHeight = `${GRIDSIDE / squaresPerSide - 2}px`;
+	const widthOrHeight = `${(GRIDSIDE / squaresPerSide) - 2}px`;
 
 	for (let i = 0; i < numofSquares; i++) {
 		const gridCell = document.createElement("div");

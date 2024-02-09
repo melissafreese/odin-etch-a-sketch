@@ -4,6 +4,8 @@ let squaresPerSide = 16;
 const sketchArea = document.querySelector("#sketch-area");
 sketchArea.style.width = sketchArea.style.height = `${GRIDSIDE}px`;
 
+const sliderContainer = document.querySelector('#slider-container');
+const slider = document.querySelector('#slider');
 function setBackgroundColor() {
 	this.style.backgroundColor = "black";
 }

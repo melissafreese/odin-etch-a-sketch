@@ -30,9 +30,13 @@ function createGridCells(squaresPerSide) {
 }
 
 function removeGridCells() {
-	while(sketchArea.firstChild) {
+	while (sketchArea.firstChild) {
 		sketchArea.removeChild(sketchArea.firstChild);
 	}
 }
+
+slider.oninput = function () {
+	let txt = `${this.value} x ${this.value}` (Resolution);
+};
 
 createGridCells(16);

@@ -4,13 +4,13 @@
 }
 
 body {
-	min-height: 100vh;
 	background-image: linear-gradient(
 		to top,
 		#dad4ec 0%,
 		#dad4ec 1%,
 		#f3e7e9 100%
 	);
+	min-height: 100vh;
 }
 
 #sketch-area {
@@ -55,7 +55,7 @@ body {
 	appearance: none;
 	width: 25px;
 	height: 25px;
-	background:#dad4ec ;
+	background: #dad4ec;
 	cursor: pointer;
 	border: solid whitesmoke;
 }

@@ -1,10 +1,12 @@
 * {
 	margin: 0;
 	padding: 0;
+	
 }
 
 body {
-	background-color: aliceblue;
+	background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+	
 }
 
 #sketch-area {

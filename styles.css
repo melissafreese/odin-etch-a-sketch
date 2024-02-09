@@ -1,3 +1,7 @@
+:root {
+	
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -34,8 +38,8 @@ body {
 	appearance: none;
 	height: 25px;
 	width: 100%;
-	background-color: #f3e7e9;
-	outline: none;
+	background-color: transparent;
+	outline: double whitesmoke;
 	opacity: 0.7;
 	-webkit-trasition: 0.2s;
 	transition: opacity 0.2s;

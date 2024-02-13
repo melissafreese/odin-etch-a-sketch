@@ -1,5 +1,7 @@
 :root {
-	
+	--grid-width: 600px;
+	--accent-color: #dad4ec;
+	--inactive-color: #dad4ec;
 }
 
 * {
@@ -17,6 +19,20 @@ body {
 	min-height: 100vh;
 }
 
+.container {
+	margin: 0 auto;
+	width: var(--grid-width);
+}
+
+.top {
+	display: flex;
+	padding: 3px;
+	background-color: white;
+	color: var(--inactive-color);
+	width: fit-content;
+	margin-bottom: 6px;
+}
+
 #sketch-area {
 	display: flex;
 	flex-wrap: wrap;
@@ -29,8 +45,8 @@ body {
 	border: 1px solid whitesmoke;
 }
 
-#slider-container {
-	margin: 0 auto;
+#grid-toggle {
+	cursor: pointer;
 }
 
 .slider {
@@ -59,7 +75,7 @@ body {
 	appearance: none;
 	width: 25px;
 	height: 25px;
-	background: #dad4ec;
+	background: var(--accent-color);
 	cursor: pointer;
 	border: solid whitesmoke;
 }
@@ -67,6 +83,6 @@ body {
 .slider::-moz-range-thumb {
 	width: 25px;
 	height: 25px;
-	background: #dad4ec;
+	background: var(--accent-color);
 	cursor: pointer;
 }

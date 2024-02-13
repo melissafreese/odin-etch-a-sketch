@@ -22,6 +22,7 @@ body {
 .container {
 	margin: 0 auto;
 	width: var(--grid-width);
+	
 }
 
 .top {
@@ -31,6 +32,7 @@ body {
 	color: var(--inactive-color);
 	width: fit-content;
 	margin-bottom: 6px;
+	border: solid;
 }
 
 #sketch-area {
@@ -47,6 +49,17 @@ body {
 
 #grid-toggle {
 	cursor: pointer;
+	
+}
+
+#eraser-toggle {
+	cursor: pointer;
+	
+}
+
+#palette-toggle {
+	cursor: pointer;
+	
 }
 
 .slider {
